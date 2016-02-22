@@ -1,0 +1,39 @@
+html{
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  }
+
+*, *::before, *::after {
+  	box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif, bold;
+  color: #512200;
+}
+
+body {
+  display: block;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  padding: 0 1em 0 1em;
+  font-style: Georgia;
+  color: #512200;
+}
+
+ul {
+    padding: 0;
+}
+
+dt {
+  display: inline-block;
+  width: 10em;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  width: 10em;
+  font-style: italic;
+}
