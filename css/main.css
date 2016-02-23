@@ -7,23 +7,27 @@ html{
   	box-sizing: inherit;
 }
 
-h1 {
+
+h2 {
   font-family: "Dosis", sans-serif, bold;
   color: #512200;
+  font-size: 1.5rem;
 }
 
-body {
+.link-card {
   display: block;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 8px;
-  padding: 0 1em 0 1em;
+  padding: 0 1em 1em 1em;
   font-style: Georgia;
   color: #512200;
+  text-decoration: none;
 }
 
-ul {
-    padding: 0;
+dl {
+  padding: 0;
+  font-size: 0.875rem;
 }
 
 dt {
@@ -36,4 +40,23 @@ dd {
   margin: 0;
   width: 10em;
   font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #785439;
+  text-align: center;
+  color: #f0eee8;
+  padding: 0.5em;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.125rem;
+}
+
+.btn-wrap {
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #354555;
 }
